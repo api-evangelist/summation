@@ -1,8 +1,30 @@
 aid: summation
 name: Summation
-description: Summation is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Summation is an enterprise AI analyst platform that automates recurring
+  business work — financial reviews, forecasts, models, and executive-ready
+  decks — by connecting to a company's data sources (ERPs, data warehouses,
+  and spreadsheets) and producing verified, source-traced reports in the
+  format teams already use. Its AI agent "Addison" runs playbooks across
+  finance, operations, and sales, tracing every number back to its source so
+  outputs are audit-ready and SOC 2 Type II compliant. Founded by Ian Wong
+  (CEO) and Ramachandran "RC" Ramarathinam (CTO), formerly of Opendoor,
+  Summation is backed by Battery Ventures. The company operates a customer
+  application, product documentation, and a public Trust Center, but does not
+  currently publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/summation/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.summation.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Analytics
+- Finance
+- Business Intelligence
+- Data
+- Enterprise Software
+- Reporting
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/summation-trust-center.yml
+- type: DomainSecurity
+  url: security/summation-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/summation-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.summation.com/security
+- type: Website
+  url: https://www.summation.com/
+- type: Documentation
+  url: https://docs.summation.com/
+- type: Compliance
+  url: https://trust.summation.com/
+- type: Login
+  url: https://app.summation.com/
+- type: SignUp
+  url: https://www.summation.com/try-summation
+- type: TermsOfService
+  url: https://www.summation.com/legals/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.summation.com/legals/privacy-policy
+- type: LinkedIn
+  url: https://linkedin.com/company/summation-hq/
+- type: Twitter
+  url: https://x.com/_summation
+- type: Careers
+  url: https://www.summation.com/careers
+
+x-enrichment:
+  date: 2026-07-21
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
