@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.summation.com/pricing
+sources:
+- https://www.summation.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Cloud, VPC & on-premise deployment options
+  managed_tier: Pro
+published: true
+note: Tiers include monthly credit allowances; Enterprise is custom-priced with cloud, VPC and on-premise
+  deployment options.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $0 per month
+  price: 0
+  currency: USD
+  period: month
+  unit: 2k credits / mo
+  included_quota: 2k credits / mo
+- name: Pro
+  price_text: $60 per month
+  price: 60
+  currency: USD
+  period: month
+  unit: 12k credits / mo
+  included_quota: 12k credits / mo
+- name: Max
+  price_text: $200 per month
+  price: 200
+  currency: USD
+  period: month
+  unit: 40k credits / mo
+  included_quota: 40k credits / mo
+- name: Enterprise
+  price_text: Custom Price
+  period: none
+  included_quota: Cloud, VPC & on-premise deployment options
