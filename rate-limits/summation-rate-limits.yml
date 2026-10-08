@@ -1,0 +1,16 @@
+# Rate limits transcribed from the provider's own documentation — see provenance. Quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://docs.summation.com/api/conventions
+sources:
+- https://docs.summation.com/api/conventions
+provenance:
+  tool: all/0-working/economics/harvest_ratelimits.py
+  run: 20261007T122905
+  grounding: every limit_text was found verbatim in the fetched page text
+published: false
+note: Page documents conventions including a rate limits section, but states no numeric limit "Rate limiting
+  returns 429. Retry with jitter and respect any retry headers." No specific header names given.
+limit_count: 0
+limits: []
+exceeded_status: 429
